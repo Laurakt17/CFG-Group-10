@@ -1,0 +1,51 @@
+/* use box-sizing property on ALL elements to make alignment easier. This means padding and border are INCLUDED in an elements total width */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    padding: 10px;
+    background-color: #aff4c6;
+}
+/* use flexbox for responsive layout */ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.item {
+    background-color: #bde3ff;
+    padding: 20px;
+    width: 30%;
+}
+
+header {
+    text-align: center;
+    background-color: #aff4c6;
+    margin: 0 0 20px 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+/* When the screen is less than 600 pixels wide, stack the contents */
+@media screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+  }
