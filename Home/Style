@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    font-family: "Red Hat Disply", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
+  body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f9f9f9;
+   
+}
+.title{
+    text-align: center;
+}
+.center{
+    height:621px;
+    width: 513px;
+}
+.container-fluid{
+    position: relative;
+    width:fit-content;
+    margin: 0;
+}
+/* footer style */
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: rgba(0, 0, 0, 0.854);
+    color: white;
+  }
+.copyright{
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+
