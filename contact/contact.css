@@ -1,19 +1,19 @@
-/* test contact form */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;}
 
   
-  body{
-font-family: 'Outfit';
+  html{
 background: white;
+padding: 10px;
+  }
+
 p{
   text-align: center;
   
 }
 
-  }
   .contact-container{
     height: 100vh;
     display: flex;
