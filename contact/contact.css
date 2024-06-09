@@ -1,0 +1,121 @@
+/* test contact form */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+
+  
+  body{
+font-family: 'Outfit';
+background: white;
+p{
+  text-align: center;
+  
+}
+
+  }
+  .contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+    flex-direction: column;
+    
+  
+  }
+  .contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 10px;
+    
+  }
+  .contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #525153;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+  }
+  .contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+  }
+  .contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+
+  }
+  /* highlights the outter input boxes when they are selected*/
+  .contact-inputs{
+    border: 2px solid rgb(121, 120, 120);
+  }
+  /* placeholder text prior to input*/
+  .contact-inputs::placeholder
+  {
+    color: lightgrey;
+  }
+  .contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(255, 253, 254);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    background: black;
+    cursor: pointer;
+  }
+  /* footer*/
+
+  .footer {
+    background-color: #deded5;
+    width: 100%;;
+}
+
+.thank-you-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: center;
+}
+
+.team-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: left;
+}
+
+.team-link {
+    color: #4f4f4f;
+}
+
+.team-link:hover {
+    color: #818963;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.team-member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(100%);
+}
