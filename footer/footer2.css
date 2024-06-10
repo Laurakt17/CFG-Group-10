@@ -1,0 +1,41 @@
+.footer {
+    background-color: #deded5;
+    width: 100%;;
+}
+
+.thank-you-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: center;
+}
+
+.team-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: left;
+}
+
+.team-link {
+    color: #4f4f4f;
+}
+
+.team-link:hover {
+    color: #818963;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.team-member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(100%);
+}
+
+
