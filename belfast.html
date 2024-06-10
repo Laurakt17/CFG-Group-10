@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+    <link rel="stylesheet" href="belfast.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content=""width=device-width, inital-scale="1.0">
+    <!--- bootstrap stylesheet-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- collapsible/responsive nav code from bootstrap (Becki's page) -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">Locale Legends</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Take Me To...
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="../birmingham/birmingham.html">Birmingham</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../glasgow/glasgow.html">Glasgow</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../london/london.html">London</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../manchester/manchester.html">Manchester</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../brighton/brighton.html">Brighton</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="javascript:randomPage();">Choose For Me!</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../contact/contact.html">Contact Us</a>
+          
+        </ul>  
+      </div>
+    </div>
+  </nav>
+<!-- end nav code -->
+<div class="box-text">
+  <h4>Welcome to Belfast!</h4>
+  <br>
+  <p>Belfast is a vibrant cultural hub on Northern Ireland's Eastern coast. Set</p>
+  <p>on the banks of the River Lagen, the beautiful city of Belfast is the capital 
+  <p>city of Northern Ireland.  Packed with lively pubs, an eclectic food scene,</p>
+  <p>iconic buildings, boutique shopping and a variety of immersive</p>
+  <p>experiences, you can delve into history, science, literature and more. 
+   <p>Read on for our favourite spots and top tips!</p>
+  <div class="popup" onclick="myFunction()">Click here for a Fun Fact!
+    <span class="popuptext" id="myPopup">The Titanic was built in Belfast</span>
+  </div>
+</div>
+</div>
+</body>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <br>
+        <h2>Where To Eat!</h2>
+      </div>
+      <div class="col">
+        <br>
+        <h2>See The Sights!</h2>
+      </div>
+      <div class="col">
+        <br>
+        <h2>Hidden Gems!</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <div id="carouselEat" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselEat" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselEat" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselEat" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="tetto.png" class="d-block w-100" alt="A photo of the rooftop area at Tettos" height="265">
+    <div class="carousel-caption d-none d-md-block">
+      <h5><a href="https://bullitthotel.com/eat-drink/tetto/" target="_blank">Tetto Belfast</a></h5>
+      <p>Tetto is a bright, modern, design-led rooftop restaurant and bar, serving amazing Italian food.</p>
+    </div>
+  </div>
+            <div class="carousel-item">
+              <img src="berts.png" class="d-block w-100" alt="A photo of the jazz bar" height="265">
+              <div class="carousel-caption d-none d-md-block">
+              <h5><a href="https://www.themerchanthotel.com/berts-jazz-bar" target="_blank">Berts Bar & Restaurant</a></h5>
+              <p>Take a seat in Belfast's only dedicated jazz bar with a French bistro style menu.</p>
+            </div>
+          </div>
+            <div class="carousel-item">
+              <img src="yugo.png" class="d-block w-100" alt="A photo of the food and cocktails" height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://yugobelfast.com/" target="_blank">Yügo</a></h5>
+                <p>Yügo serves Asian fusion seafood & vegan plates alongside classic cocktails.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEat" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselEat" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div id="carouselSights" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselSights" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselSights" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselSights" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="library.png" class="d-block w-100" alt="A photo of The Linen Hall Library on a sunny day" height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://www.linenhall.com/" target="_blank">Linen Hall</a></h5>
+                <p>The Linen Hall is the oldest library in Belfast, pop in for a read or to enjoy lunch in the cafe.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="arcade.png" class="d-block w-100" alt="A photo of the outside of Queens arcade on a sunny day." height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://www.queensarcadebelfast.com/" target="_blank">Queens Arcade</a></h5>
+                <p>Built in 1880, Queen’s Arcade is the last Victorian Arcade in the city. It is home to many luxury Boutiques. </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="titanic.png" class="d-block w-100"
+                alt="A photo of the interior of the Titanic exhibition." height="265">
+              <div class="carousel-caption d-none d-md-block">
+              <h5><a href="https://www.titanicbelfast.com/" target="_blank">Titanic Belfast</a></h5>
+                <p>Titanic Belfast is a world-leading visitor attraction which tells the story of RMS Titanic.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselSights" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselSights" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col">
+        <div id="carouselGems" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselGems" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselGems" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselGems" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="hazelbank.png" class="d-block w-100" alt="A photo of the water at Hazelbank Park" height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://visitantrimandnewtownabbey.com/things-to-do/gardens-and-parks/hazelbank-park-gideon-s-green/" target="_blank">Hazelbank Park</a></h5>
+                <p>The remnants of an estate house. You can walk or cycle to the park from the city center.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="speakeasy.png" class="d-block w-100" alt="A photo of the exterior of Angel & Two Bibles in Belfast" height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://angelandtwobiblesbelfast.com/" target="_blank">Angel & Two Bibles</a></h5>
+                <p>Buzz for entry and climb the stairway to this hidden speakeasy cocktail bar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="bananablock.png" class="d-block w-100"alt="A photo of the inside of Banana Block." height="265">
+              <div class="carousel-caption d-none d-md-block">
+                <h5><a href="https://bananablock.org/" target="_blank">Banana Block</a></h5>
+                <p>Living museum and events space within a historic linen mill. </p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselGems" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselGems" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+<!--- Footer -->
+<footer class="footer">
+  <div class="container p-4">
+      <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4">
+              <h5 class="mb-3 thank-you-title"> Thank you</h5>
+              <p>Thank you for visiting our page! We hope you found some fun facts and ideas for your next trips! To learn more about our team, please click on a name.</p>
+            </div>
+          <div class="col-lg-6 col-md-6 mb-4">
+            <h5 class="mb-3 team-title">Our Team</h5>
+              <ul class="list-unstyled mb-0">
+                  <li class="mb-1">
+                      <a href="/footer/footer-page.html" class="team-member">
+                        <img src="laura.jpg" alt="Photo of Laura" width="80px" height="80px">
+                        <h6> Laura</h6></a>
+                  </li>
+                  <li class="mb-1">
+                    <a href="/footer/footer-page.html" class="team-member">
+                      <img src="felicity.jpeg" alt="Photo of Felicity" width="80px" height="80px">
+                      <h6>Felicity</h6></a>
+                </li>
+                <li class="mb-1">
+                  <a href="/footer/footer-page.html" class="team-member">
+                    <img src="becky.jpg" alt="Photo of Becky" width="80px" height="80px">
+                    <h6>Becky</h6></a>
+              </li>
+              <li class="mb-1">
+                <a href="/footer/footer-page.html" class="team-member">
+                  <img src="vanessa.jpg" alt="Photo of Vanessa" width="80px" height="80px">
+                  <h6>Vanessa</h6></a>
+            </li>
+          <li class="mb-1">
+            <a href="/footer/footer-page.html" class="team-member">
+              <img src="munopa.jpg" alt="Photo of Munopa" width="80px" height="80px">
+              <h6> Munopa</h6></a>
+        </li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <p><i>© 2024 Copyright: CFG Group 10</i> </p>
+  </div>
+</footer>
+</div>
+<!-- Link to javascript file -->
+<script type="text/javascript" src="script.js"></script>
+<!-- import script for random link -->
+<script src="random-link.js"></script>
+<!-- Bootstrap javascript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
