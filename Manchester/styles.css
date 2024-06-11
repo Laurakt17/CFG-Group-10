@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+html{
+    font-family: "Red Hat Disply", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style:normal;
+}
+
+.container-fluid{
+    position: relative;
+    width:fit-content;
+    margin: 0;
+}
+.text-block{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:5%;
+    right:25%;
+    background: rgb(255, 255, 255);
+    background: rgba(234, 244, 255, 0.5);
+    color: black;
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    padding: 20px;
+}
+.carousel slide{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#navbar-logo {
+    color: black;
+    font-size: larger;
+    font-style: normal;
+    text-decoration: none;
+}
+#navbar-logo:hover {
+    color: rgb(66, 66, 66);
+}
+
+#take-me-dropdown {
+    color: black;
+    font-size: medium;
+    font-style: normal;
+    text-decoration: none;
+}
+#take-me-dropdown:hover {
+    color: rgb(66, 66, 66);
+}
+
+.navbar-container {
+    background-color: #4f4f4f;
+}
+
+.popup {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  .popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #cecebe;
+    color: #202020;
+    font-family: "Red Hat Disply", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:light;
+    font-style:normal;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1;
+    border-radius: 6px;
+    padding: 20px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #cecebe transparent transparent transparent;
+  }
+  
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+#carousel-text{
+    background: rgba(234, 244, 255, 0.5);
+    color: #202020;
+
+}
+
+a:link {
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: rgb(255, 217, 0);
+}
+a.one:link {
+    color: black;
+}
+a.one:visited{
+    color: black;
+}
+
+.footer-container-fluid{
+    width:auto;
+    margin: 10px;
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: #deded5;
+    width: 100%;;
+}
+
+.thank-you-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: center;
+}
+
+.team-title {
+    letter-spacing: 2px;
+    color: #818963;
+    text-align: left;
+}
+
+.team-link {
+    color: #4f4f4f;
+}
+
+.team-link:hover {
+    color: #818963;
+    text-decoration: none;
+}
+p{
+    text-align: center;
+}
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.team-member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(100%);
+}
