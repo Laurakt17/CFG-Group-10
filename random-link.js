@@ -1,7 +1,7 @@
 
 var pages = [
     '../belfast/belfast.html',
-    '../birmingham/birmingham.html',
+    '../birmingham/bham.html',
     '../glasgow/glasgow.html',
     '../london/london.html',
     '../manchester/manchester.html',
