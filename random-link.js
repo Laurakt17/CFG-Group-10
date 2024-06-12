@@ -2,9 +2,9 @@
 var pages = [
     '../belfast/belfast.html',
     '../birmingham/bham.html',
-    '../glasgow/glasgow.html',
+    '../Glasgow/glasgow.html',
     '../london/london.html',
-    '../manchester/manchester.html',
+    '../Manchester/manchester.html',
     '../brighton/brighton.html'
     ];
 
@@ -17,9 +17,9 @@ function randomPage() {
 var pages2 = [
     'belfast/belfast.html',
     'birmingham/bham.html',
-    'glasgow/glasgow.html',
+    'Glasgow/glasgow.html',
     'london/london.html',
-    'manchester/manchester.html',
+    'Manchester/manchester.html',
     'brighton/brighton.html'
     ];
 
