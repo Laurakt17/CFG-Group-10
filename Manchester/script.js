@@ -1,5 +1,5 @@
 
-var pages = [
+/*var pages = [
     '../belfast/belfast.html',
     '../birmingham/birmingham.html',
     '../glasgow/glasgow.html',
@@ -12,7 +12,7 @@ function randomPage() {
     var i = parseInt(Math.random() * pages.length);
     location.href = pages[i];
     console.log(location.href);
-}
+}*/
 
 function myFunction() {
     var x = document.getElementById("myTopnav");
