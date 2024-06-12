@@ -9,6 +9,12 @@ html{
   position: relative;
     width:fit-content;
     margin: 0;
+     display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+}
 }
 
 .carousel slide{
@@ -137,9 +143,4 @@ ul{
   align-items: center;
   filter: grayscale(100%);
 }
- display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    margin: 0;
-    width: 100%;
-}
+
