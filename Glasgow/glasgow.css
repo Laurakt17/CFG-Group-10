@@ -137,3 +137,9 @@ ul{
   align-items: center;
   filter: grayscale(100%);
 }
+ display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+}
